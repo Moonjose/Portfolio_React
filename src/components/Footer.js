@@ -1,22 +1,27 @@
 import React from 'react';
 
-import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import '../styles/Footer.css'; // Css
+import NavbarLinkButton from './NavbarLinkButton';
 
 function Footer() {
   return (
     <footer className='footer'>
       <div className='socialMedia'>
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <NavbarLinkButton url={'https://github.com/Moonjose'}>
+          <GitHubIcon />
+        </NavbarLinkButton>
+        <NavbarLinkButton url={'https://linkedin.com/in/jodvs'}>
+          <LinkedInIcon />
+        </NavbarLinkButton>
+        <NavbarLinkButton url={'https://www.instagram.com/jarl.art_/'}>
+          <InstagramIcon />
+        </NavbarLinkButton>
       </div>
-      <p> &copy; 2022 jodev.com</p>
+      <p> &copy; 2022 Jose Antonio</p>
     </footer>
   );
 }

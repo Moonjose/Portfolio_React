@@ -13,11 +13,15 @@
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 20px 20px 20px 60px;
+  margin: 20px 5px 20px 60px;
   font-size: 20px;
 }
 
 .navbar a:hover {
   transition: all 250ms ease-in-out;
   color: var(--red-color);
+}
+
+.navbar a svg {
+  transform: scale(1.4);
 }

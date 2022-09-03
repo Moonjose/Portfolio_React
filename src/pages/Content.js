@@ -1,9 +1,5 @@
 import { React } from 'react';
 
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
-import GithubIcon from '@mui/icons-material/GitHub';
-
 import '../styles/Content.css'; // Css
 
 import { SkillList } from '../helpers/SkillList';
@@ -17,9 +13,6 @@ function Content() {
         <h2>Hi, i'm Jose</h2>
         <div className='prompt'>
           <p>A fullstack web developer.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
         </div>
       </div>
 

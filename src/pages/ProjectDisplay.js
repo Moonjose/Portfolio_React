@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-// import { WebDevList } from '../helpers/WebDevList';
-// import { GameDevList } from '../helpers/GameDevList';
+import ProjectLinkButton from '../components/ProjectLinkButton';
 import { ProjectsList } from '../helpers/ProjectsList';
-import GitHubIcon from '@mui/icons-material/GitHub';
+
 import '../styles/ProjectDisplay.css';
 
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectsList[id - 1];
+  const backToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+  useEffect(() => {
+    backToTop();
+  }, []);
   return (
     <div className='project'>
       <h1>{project.name}</h1>
@@ -17,8 +25,7 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skill}
       </p>
-
-      <GitHubIcon />
+      <ProjectLinkButton url={project.link} />
     </div>
   );
 }

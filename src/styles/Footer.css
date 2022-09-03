@@ -4,6 +4,11 @@
   padding: 1em;
   text-align: center;
 }
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
 
 .socialMedia svg {
   color: white;

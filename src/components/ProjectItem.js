@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function ProjectItem({ image, name, id }) {
   const navigate = useNavigate();
   return (
-    <div
+    <article
       className='projectItem'
       onClick={() => {
         navigate(`/projects/${id}`);
@@ -14,7 +14,7 @@ function ProjectItem({ image, name, id }) {
         <img src={image} alt=''></img>
       </div>
       <h2>{name}</h2>
-    </div>
+    </article>
   );
 }
 
