@@ -18,5 +18,6 @@
 }
 
 .navbar a:hover {
+  transition: all 250ms ease-in-out;
   color: var(--red-color);
 }

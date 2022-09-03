@@ -1,16 +1,22 @@
 .project {
-  width: 100%;
-  height: calc(100vh - 100px);
+  height: 1000px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
 .project h1 {
   margin-top: 50px;
-  color: #3e497a;
-  font-size: 35px;
+  margin-bottom: 50px;
+  font-size: 45px;
+  font-weight: bolder;
+  color: var(--white-color);
+  text-shadow: 0px 0px 5px var(--red-color);
+}
+
+.project h2 {
+  color: var(--mediumgrey-color);
+  margin-bottom: 35px;
 }
 .project img {
   width: 700px;
@@ -18,11 +24,23 @@
 }
 
 .project p {
-  font-size: 40px;
-  color: #3e497a;
+  margin-top: 90px;
+  font-size: 30px;
+  color: #ff82a3;
+  text-shadow: 0px 0px 5px #ff0044;
+}
+
+p b {
+  color: var(--white-color);
 }
 
 .project svg {
+  margin-top: 10px;
   font-size: 60px;
-  color: #3e497a;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.project svg:hover {
+  color: #ff82a3;
 }

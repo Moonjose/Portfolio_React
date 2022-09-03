@@ -1,4 +1,4 @@
-import React from 'react';
+import { React } from 'react';
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -8,13 +8,13 @@ import '../styles/Content.css'; // Css
 
 import { SkillList } from '../helpers/SkillList';
 import Skill from '../components/Skill_Item';
+import BackToTopButton from '../components/BackToTopButton';
 
 function Content() {
   return (
     <div>
-      <div className='about'>
+      <div className='about' id='home'>
         <h2>Hi, i'm Jose</h2>
-
         <div className='prompt'>
           <p>A fullstack web developer.</p>
           <LinkedInIcon />
@@ -23,9 +23,8 @@ function Content() {
         </div>
       </div>
 
-      <div className='skills'>
+      <div className='skills' id='skills'>
         <h1>Skills</h1>
-
         <div className='listSkills'>
           {SkillList.map((skill, index) => {
             return (
@@ -39,6 +38,7 @@ function Content() {
           })}
         </div>
       </div>
+      <BackToTopButton />
     </div>
   );
 }

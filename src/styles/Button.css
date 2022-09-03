@@ -1,0 +1,8 @@
+/* @import '~node_modules/@mui/icons-material/ArrowCircleUp.js'; */
+.btn {
+  cursor: pointer;
+  background: transparent;
+  color: var(--red-color);
+  transform: scale(2.5);
+  position: fixed;
+}

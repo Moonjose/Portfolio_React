@@ -1,9 +1,9 @@
-import backend from '../assets/backend.png';
-import frontend from '../assets/frontend.png';
-import languages from '../assets/languages.png';
-import databases from '../assets/database.png';
-import gamedev from '../assets/gamedev.png';
-import other from '../assets/database.png';
+import backend from '../assets/icons/backend.png';
+import frontend from '../assets/icons/frontend.png';
+import databases from '../assets/icons/database.png';
+import languages from '../assets/icons/languages.png';
+import gamedev from '../assets/icons/gamedev.png';
+import other from '../assets/icons/other.png';
 
 export const SkillList = [
   {

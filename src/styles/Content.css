@@ -42,7 +42,6 @@
   padding-top: 100px;
   text-align: center;
   font-size: 55px;
-  /* color: var(--white-color); */
   font-weight: 900;
 }
 
@@ -71,10 +70,6 @@
   filter: invert(100%);
 }
 
-.skillcard .icon img {
-  color: red;
-}
-
 .skillcard .content {
   width: 400px;
   height: 40%;
@@ -90,8 +85,8 @@
 }
 
 .skillcard p {
-  font-size: large;
-  text-shadow: 0px 0px 5px #ff0044;
-  color: #ff82a3;
   margin-top: 20px;
+  font-size: large;
+  color: var(--white-color);
+  text-shadow: 0px 0px 5px var(--red-color);
 }
