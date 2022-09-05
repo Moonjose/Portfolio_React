@@ -8,32 +8,32 @@ import other from '../assets/icons/other.png';
 export const SkillList = [
   {
     title: 'Back-End',
-    info: 'Ruby On Rails, NodeJS, Express, API REST',
+    info: 'Ruby On Rails, NodeJS, Express, API REST.',
     image: backend,
   },
   {
     title: 'Front-End',
-    info: 'ReactJS, HTML, CSS, JavaScript, BootStrap',
+    info: 'ReactJS, HTML, CSS, JavaScript, BootStrap, MUI.',
     image: frontend,
   },
   {
     title: 'Languages',
-    info: 'JavaScript, Ruby, TypeScript, C#',
+    info: 'JavaScript, Ruby, TypeScript, C#.',
     image: languages,
   },
   {
     title: 'Databases',
-    info: 'MySQL, PostgreSQL, SQL, MongoDB',
+    info: 'MySQL, PostgreSQL, SQL, MongoDB.',
     image: databases,
   },
   {
     title: 'Game Development',
-    info: 'Unity, Unreal Engine 4, Unreal Engine 5, Blender, Mixamo, Quixel',
+    info: 'Unity, Unreal Engine 4, Unreal Engine 5, Blender, Mixamo.',
     image: gamedev,
   },
   {
     title: 'Other Skills',
-    info: 'Linux, Photoshop, 2D Art, 3D Assets',
+    info: 'Linux, Photoshop, 2D Art, 3D Assets.',
     image: other,
   },
 ];
