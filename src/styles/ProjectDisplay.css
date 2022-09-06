@@ -69,6 +69,7 @@
     font-size: 2rem;
   }
   .project-display h2 {
+    width: 80%;
     font-size: 1rem;
   }
   .project-display p {
