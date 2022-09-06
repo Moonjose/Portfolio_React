@@ -22,33 +22,31 @@ function Projects() {
     backToTop();
   }, []);
   return (
-    <div className='projects'>
-      <h1>Main Projects</h1>
-      <div className='projectList'>
-        {ProjectsList.map((project) => {
-          return (
-            <Card
-              image={project.image}
-              title={project.title}
-              category={project.category}
-              id={project.id}
-              key={project.id}
-            />
-          );
-        })}
-      </div>
+    <div className='project-container'>
+      <div className='projects'>
+        <h1>Main Projects</h1>
+        <div className='projectList'>
+          {ProjectsList.map((project) => {
+            return (
+              <Card
+                image={project.image}
+                title={project.title}
+                category={project.category}
+                id={project.id}
+                key={project.id}
+              />
+            );
+          })}
+        </div>
 
-      <h1>Art Projects</h1>
-      <div className='projectList'>
-        <ArtItem
-          name={'Artstation'}
-          image={img_artstation}
-          url={artstationUrl}
-        />
-        <ArtItem name={'Instagram'} image={img_instagram} url={instagramUrl} />
-        <ArtItem name={'Behance'} image={img_behance} url={behanceUrl} />
+        <h1>Art Projects</h1>
+        <div className='art-project-list'>
+          <ArtItem name={'Artstation'} image={img_artstation} url={artstationUrl} />
+          <ArtItem name={'Instagram'} image={img_instagram} url={instagramUrl} />
+          <ArtItem name={'Behance'} image={img_behance} url={behanceUrl} />
+        </div>
+        <BackToTopButton />
       </div>
-      <BackToTopButton />
     </div>
   );
 }

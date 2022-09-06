@@ -1,8 +1,10 @@
 .footer {
+  width: 100%;
+  padding: 1em;
+  bottom: 0;
+  text-align: center;
   background: #0b0b0b;
   color: var(--white-color);
-  padding: 1em;
-  text-align: center;
 }
 .socialMedia {
   display: flex;

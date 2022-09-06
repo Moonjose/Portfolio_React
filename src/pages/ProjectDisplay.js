@@ -18,14 +18,18 @@ function ProjectDisplay() {
     backToTop();
   }, []);
   return (
-    <div className='project'>
-      <h1>{project.name}</h1>
-      <h2>{project.desc}</h2>
-      <img src={project.image} alt='img for the project' />
-      <p>
-        <b>Skills:</b> {project.skill}
-      </p>
-      <ProjectLinkButton url={project.link} />
+    <div className='project-container-display'>
+      <div className='project-display'>
+        <h1>{project.title}</h1>
+        <h2>{project.desc}</h2>
+        <img src={project.image} alt='img for the project' />
+        <div className='bottom-content'>
+          <p>
+            <b>Skills:</b> {project.skill}
+          </p>
+          <ProjectLinkButton url={project.link} />
+        </div>
+      </div>
     </div>
   );
 }

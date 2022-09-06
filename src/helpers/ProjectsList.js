@@ -3,7 +3,7 @@ import heroes_api from '../assets/images/heroes_api.png';
 import landing_page from '../assets/images/landing_page.png';
 import time_to_answer from '../assets/images/time_to_answer.png';
 import youtube_clone from '../assets/images/youtube_clone.png';
-import em_breve from '../assets/images/em_breve.jpeg';
+import em_Breve from '../assets/images/Em_Breve.png';
 
 export const ProjectsList = [
   {
@@ -61,7 +61,7 @@ export const ProjectsList = [
     id: 6,
     title: 'Em breve...',
     category: '???',
-    image: em_breve,
+    image: em_Breve,
     skill: '???',
     desc: '???',
     link: '',
@@ -72,7 +72,7 @@ export const ProjectsList = [
     id: 7,
     title: 'Mente Obscura',
     category: 'Game Development',
-    image: em_breve,
+    image: em_Breve,
     skill: 'Unreal Engine 5, Blender, Photoshop',
     desc: 'Jogo de survival-horror inspirado em Resident Evil e Outlast',
     link: '',
@@ -82,7 +82,7 @@ export const ProjectsList = [
     id: 8,
     title: 'Shokan',
     category: 'Game Development',
-    image: em_breve,
+    image: em_Breve,
     skill: 'Unity, Piskel, Photoshop',
     desc: 'Jogo 2d Plataforma pixel art com temática de folclore japonês, multiplataforma (Desktop/Mobile)',
     link: '',
@@ -92,7 +92,7 @@ export const ProjectsList = [
     id: 9,
     title: 'Operation Gear',
     category: 'Game Development',
-    image: em_breve,
+    image: em_Breve,
     skill: 'Photoshop',
     desc: 'Jogo feito em equipe na universidade como projeto final, temática steampunk',
     link: '',

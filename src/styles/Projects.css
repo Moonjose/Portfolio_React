@@ -1,19 +1,36 @@
+.project-container {
+  height: 100%;
+  width: 100%;
+}
+
 .projects {
   background-color: var(--dark-color);
-  display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  height: 2000px;
+  width: 100%;
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  place-items: center;
+  gap: 50px;
 }
 
 /* -- Title Sections --  */
 .projects h1 {
-  color: var(--white-color);
-  text-shadow: 0px 0px 6px #ffffff;
+  text-align: center;
   margin-bottom: 30px;
-  margin-top: 70px;
+  margin-top: 50px;
   font-size: 50px;
+  color: var(--white-color);
+  text-shadow: 0px 0px 5px var(--red-color);
+}
+.projectList .card {
+  height: 100%;
+  padding: 2px;
+  background: linear-gradient(180deg, var(--red-color), var(--pink-color));
 }
 
 /* -- Project Names --  */
@@ -23,13 +40,6 @@
   color: var(--white-color);
   text-shadow: 0px 0px 5px var(--red-color);
   font-style: italic;
-}
-
-.projectList {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
-  gap: 50px;
 }
 
 .projectItem {
@@ -53,6 +63,12 @@
   background-size: cover;
 }
 
+.art-project-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .artBgImage {
   filter: blur(3px);
 }
@@ -64,24 +80,28 @@
   cursor: pointer;
 }
 
-/* @media only screen and (max-width: 1300px) {
-  .projectList {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .projectList {
     grid-template-columns: 1fr;
   }
+  .art-project-list {
+    flex-direction: column;
+  }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
   .projectList {
-    width: 100%;
+    grid-template-columns: repeat(auto-fill, 320px);
   }
-  .projectItem {
-    width: 300px;
-    height: 300px;
+  .art-project-list {
+    flex-wrap: wrap;
   }
-} */
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1920px) {
+  .projectList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* FAZER PARA 2K e 4K  */

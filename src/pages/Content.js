@@ -8,7 +8,7 @@ import BackToTopButton from '../components/BackToTopButton';
 
 function Content() {
   return (
-    <div>
+    <div className='content-container'>
       <div className='about' id='home'>
         <h2>Hi, i'm Jose</h2>
         <div className='prompt'>
@@ -20,14 +20,7 @@ function Content() {
         <h1>Skills</h1>
         <div className='listSkills'>
           {SkillList.map((skill, index) => {
-            return (
-              <Skill
-                title={skill.title}
-                info={skill.info}
-                image={skill.image}
-                key={index}
-              />
-            );
+            return <Skill title={skill.title} info={skill.info} image={skill.image} key={index} />;
           })}
         </div>
       </div>
