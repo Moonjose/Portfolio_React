@@ -13,7 +13,7 @@ export const SkillList = [
   },
   {
     title: 'Front-End',
-    info: 'ReactJS, HTML, CSS, JavaScript, BootStrap, MUI.',
+    info: 'ReactJS, HTML, CSS, JavaScript, BootStrap.',
     image: frontend,
   },
   {
@@ -23,7 +23,7 @@ export const SkillList = [
   },
   {
     title: 'Databases',
-    info: 'MySQL, PostgreSQL, SQL, MongoDB.',
+    info: 'MySQL, PostgreSQL(ORM), SQL(ORM), MongoDB(ORM).',
     image: databases,
   },
   {
