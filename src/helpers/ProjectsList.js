@@ -4,6 +4,8 @@ import landing_page from '../assets/images/landing_page.png';
 import time_to_answer from '../assets/images/time_to_answer.png';
 import youtube_clone from '../assets/images/youtube_clone.png';
 import em_Breve from '../assets/images/Em_Breve.png';
+import friendlistmern_img from '../assets/images/friendlistmern_img.png';
+
 
 export const ProjectsList = [
   {
@@ -39,6 +41,16 @@ export const ProjectsList = [
   },
   {
     id: 4,
+    title: 'Friend List Mern',
+    category: 'Web Development',
+    image: friendlistmern_img,
+    skill: 'MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Styled Components, Axios Requests',
+    desc: 'Um CRUD simples de contatos em um cluster do MongoDB. OBS(Sem autenticação, CRUD "global")',
+    link: 'https://github.com/Moonjose/FriendList_MERN',
+    projectLink: 'https://friendlistmern.netlify.app/home',
+  },
+  {
+    id: 5,
     title: 'Tour Of Heroes API',
     category: 'Web Development',
     image: heroes_api,
@@ -48,7 +60,7 @@ export const ProjectsList = [
     projectLink: 'https://tour-of-heros-api.herokuapp.com/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Landing Page Básica',
     category: 'Web Development',
     image: landing_page,
@@ -58,7 +70,7 @@ export const ProjectsList = [
     projectLink: 'https://basic-landing-pg.netlify.app/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Em breve...',
     category: '???',
     image: em_Breve,
@@ -69,7 +81,7 @@ export const ProjectsList = [
   },
   // Game Dev
   {
-    id: 7,
+    id: 8,
     title: 'Mente Obscura',
     category: 'Game Development',
     image: em_Breve,
@@ -79,7 +91,7 @@ export const ProjectsList = [
     projectLink: '',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Shokan',
     category: 'Game Development',
     image: em_Breve,
@@ -89,7 +101,7 @@ export const ProjectsList = [
     projectLink: '',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Operation Gear',
     category: 'Game Development',
     image: em_Breve,

@@ -13,7 +13,7 @@ export const SkillList = [
   },
   {
     title: 'Front-End',
-    info: 'ReactJS, HTML, CSS, JavaScript, BootStrap.',
+    info: 'ReactJS, HTML, CSS, JavaScript, BootStrap, Styled Components.',
     image: frontend,
   },
   {
