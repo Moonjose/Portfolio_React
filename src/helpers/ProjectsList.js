@@ -5,6 +5,7 @@ import time_to_answer from '../assets/images/time_to_answer.png';
 import youtube_clone from '../assets/images/youtube_clone.png';
 import em_Breve from '../assets/images/Em_Breve.png';
 import friendlistmern_img from '../assets/images/friendlistmern_img.png';
+import nlwEsports from '../assets/images/nlwEsports.png';
 
 
 export const ProjectsList = [
@@ -21,6 +22,16 @@ export const ProjectsList = [
   },
   {
     id: 2,
+    title: 'NLW eSports',
+    category: 'Web Development',
+    image: nlwEsports,
+    skill: 'NodeJS, TypeScript, ExpressJS, Prisma, ReactJS, TailwindCSS, Axios, Radix, PhosphorReact, Expo, ReactNative',
+    desc: 'Um site para publicar anúncios e encontrar o duo perfeito nos games, com versão mobile para encontrar o duo.',
+    link: 'https://github.com/Moonjose/NLW_eSports',
+    projectLink: 'https://nlw-esports-jodvs.netlify.app/',
+  },
+  {
+    id: 3,
     title: 'Blogerizer',
     category: 'Web Development',
     image: blogerizer,
@@ -30,7 +41,7 @@ export const ProjectsList = [
     projectLink: 'https://blogerizer.herokuapp.com/pt-BR',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Time To Answer',
     category: 'Web Development',
     image: time_to_answer,
@@ -40,7 +51,7 @@ export const ProjectsList = [
     projectLink: 'https://timetoanswertwo.herokuapp.com/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Friend List Mern',
     category: 'Web Development',
     image: friendlistmern_img,
@@ -50,7 +61,7 @@ export const ProjectsList = [
     projectLink: 'https://friendlistmern.netlify.app/home',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Tour Of Heroes API',
     category: 'Web Development',
     image: heroes_api,
@@ -60,7 +71,7 @@ export const ProjectsList = [
     projectLink: 'https://tour-of-heros-api.herokuapp.com/',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Landing Page Básica',
     category: 'Web Development',
     image: landing_page,
@@ -68,16 +79,6 @@ export const ProjectsList = [
     desc: 'Um dos meus primeiros projetos, aprendendo HTML e CSS. Landing Page básica',
     link: 'https://github.com/Moonjose/LandingPage_CSS_UD',
     projectLink: 'https://basic-landing-pg.netlify.app/',
-  },
-  {
-    id: 7,
-    title: 'Em breve...',
-    category: '???',
-    image: em_Breve,
-    skill: '???',
-    desc: '???',
-    link: '',
-    projectLink: '',
   },
   // Game Dev
   {

@@ -8,7 +8,7 @@ import other from '../assets/icons/other.png';
 export const SkillList = [
   {
     title: 'Back-End',
-    info: 'Ruby On Rails, NodeJS, Express, API REST.',
+    info: 'NodeJS, ExpressJS, Ruby On Rails, Axios, API REST',
     image: backend,
   },
   {
