@@ -18,7 +18,7 @@ export const SkillList = [
   },
   {
     title: 'Languages',
-    info: 'JavaScript, Ruby, TypeScript, C#.',
+    info: 'C#, C++, JavaScript, TypeScript, Ruby.',
     image: languages,
   },
   {
@@ -28,12 +28,12 @@ export const SkillList = [
   },
   {
     title: 'Game Development',
-    info: 'Unity, Unreal Engine 4, Unreal Engine 5, Blender, Mixamo.',
+    info: 'Unreal Engine, Unity, Blender.',
     image: gamedev,
   },
   {
     title: 'Other Skills',
-    info: 'Linux, Photoshop, 2D Art, 3D Assets.',
+    info: 'Linux, Photoshop, 2D & 3D Art',
     image: other,
   },
 ];

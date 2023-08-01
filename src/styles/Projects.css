@@ -16,12 +16,23 @@
   justify-content: center;
   place-items: center;
   gap: 50px;
+  padding-bottom: 20px;
+}
+
+.art-project-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-header {
+  padding-bottom: 15px;
 }
 
 /* -- Title Sections --  */
 .projects h1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   margin-top: 50px;
   font-size: 50px;
   color: var(--white-color);
@@ -61,12 +72,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.art-project-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .artBgImage {

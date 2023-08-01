@@ -10,9 +10,9 @@ function Content() {
   return (
     <div className='content-container'>
       <div className='about' id='home'>
-        <h2>Hi, i'm Jose</h2>
+        <h2>Hi, I'm Jose</h2>
         <div className='prompt'>
-          <p>A fullstack web developer.</p>
+          <p>A Game & Web developer.</p>
         </div>
       </div>
 

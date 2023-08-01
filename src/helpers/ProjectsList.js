@@ -32,46 +32,6 @@ export const ProjectsList = [
   },
   {
     id: 3,
-    title: 'Blogerizer',
-    category: 'Web Development',
-    image: blogerizer,
-    skill: 'Ruby On Rails 6, Bootstrap, postgreSQL, libs(devise, rolify, pundit, kaminari)',
-    desc: 'Um blog pessoal de noticias com cadastro de usuários e comentarios.',
-    link: 'https://github.com/Moonjose/Blogerizer_RB',
-    projectLink: 'https://blogerizer.herokuapp.com/pt-BR',
-  },
-  {
-    id: 4,
-    title: 'Time To Answer',
-    category: 'Web Development',
-    image: time_to_answer,
-    skill: 'Ruby On Rails 5, BootStrap, sqlite3, libs(devise, cocoon, sbAdmin, kaminari)',
-    desc: 'Um site de perguntas e respostas estilo concurso, onde o admin cadastra perguntas e respostas de múltipla escolha e os usuários respondem',
-    link: 'https://github.com/Moonjose/TimeToAnswer_RB',
-    projectLink: 'https://timetoanswertwo.herokuapp.com/',
-  },
-  {
-    id: 5,
-    title: 'Friend List Mern',
-    category: 'Web Development',
-    image: friendlistmern_img,
-    skill: 'MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Styled Components, Axios Requests',
-    desc: 'Um CRUD simples de contatos em um cluster do MongoDB. OBS(Sem autenticação, CRUD "global")',
-    link: 'https://github.com/Moonjose/FriendList_MERN',
-    projectLink: 'https://friendlistmern.netlify.app/home',
-  },
-  {
-    id: 6,
-    title: 'Tour Of Heroes API',
-    category: 'Web Development',
-    image: heroes_api,
-    skill: 'Ruby On Rails 6',
-    desc: 'Uma API básica com um CRUD onde é possivel cadastrar super heróis',
-    link: 'https://github.com/Moonjose/HeroesList_Api_RB',
-    projectLink: 'https://tour-of-heros-api.herokuapp.com/',
-  },
-  {
-    id: 7,
     title: 'Landing Page Básica',
     category: 'Web Development',
     image: landing_page,
@@ -80,7 +40,54 @@ export const ProjectsList = [
     link: 'https://github.com/Moonjose/LandingPage_CSS_UD',
     projectLink: 'https://basic-landing-pg.netlify.app/',
   },
-  // Game Dev
+];
+
+/*
+DEPRECATED PROJECTS
+{
+    id: 4,
+    title: 'Blogerizer',
+    category: 'Web Development',
+    image: blogerizer,
+    skill: 'Ruby On Rails 6, Bootstrap, postgreSQL, libs(devise, rolify, pundit, kaminari)',
+    desc: 'Um blog pessoal de noticias com cadastro de usuários e comentarios.',
+    link: 'https://github.com/Moonjose/Blogerizer_RB',
+    projectLink: 'https://blogerizer.herokuapp.com/pt-BR',
+  },
+{
+    id: 5,
+    title: 'Time To Answer',
+    category: 'Web Development',
+    image: time_to_answer,
+    skill: 'Ruby On Rails 5, BootStrap, sqlite3, libs(devise, cocoon, sbAdmin, kaminari)',
+    desc: 'Um site de perguntas e respostas estilo concurso, onde o admin cadastra perguntas e respostas de múltipla escolha e os usuários respondem',
+    link: 'https://github.com/Moonjose/TimeToAnswer_RB',
+    projectLink: 'https://timetoanswertwo.herokuapp.com/',
+  },
+
+  {
+    id: 6,
+    title: 'Friend List Mern',
+    category: 'Web Development',
+    image: friendlistmern_img,
+    skill: 'MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Styled Components, Axios Requests',
+    desc: 'Um CRUD simples de contatos em um cluster do MongoDB. OBS(Sem autenticação, CRUD "global")',
+    link: 'https://github.com/Moonjose/FriendList_MERN',
+    projectLink: 'https://friendlistmern.netlify.app/home',
+  },
+
+  {
+    id: 7,
+    title: 'Tour Of Heroes API',
+    category: 'Web Development',
+    image: heroes_api,
+    skill: 'Ruby On Rails 6',
+    desc: 'Uma API básica com um CRUD onde é possivel cadastrar super heróis',
+    link: 'https://github.com/Moonjose/HeroesList_Api_RB',
+    projectLink: 'https://tour-of-heros-api.herokuapp.com/',
+  },
+
+    // Game Dev
   {
     id: 8,
     title: 'Mente Obscura',
@@ -111,4 +118,5 @@ export const ProjectsList = [
     link: '',
     projectLink: '',
   },
-];
+
+*/
