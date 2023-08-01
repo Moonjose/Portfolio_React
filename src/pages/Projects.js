@@ -26,7 +26,7 @@ function Projects() {
   return (
     <div className='project-container'>
       <div className='projects'>
-        <h1  className='projects-header'>Web Projects Deployed.</h1>
+        <h1  className='projects-header'>Web Projects Deployed</h1>
         <div className='projectList'>
           {ProjectsList.map((project) => {
             return (
@@ -41,7 +41,7 @@ function Projects() {
           })}
         </div>
 
-        <h1>Other Projects.</h1>
+        <h1>Other Projects</h1>
         <div className='art-project-list'>
          <ArtItem name={'ItchIO'} image={img_itchio} url={itchIoUrl} />
           <ArtItem name={'Artstation'} image={img_artstation} url={artstationUrl} />
